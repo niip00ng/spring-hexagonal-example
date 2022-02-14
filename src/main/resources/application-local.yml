@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: demo
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      authentication-database: test
+      database: test
+      username: test
+      password: test12!!
