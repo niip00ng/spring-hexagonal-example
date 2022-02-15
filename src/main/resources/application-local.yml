@@ -5,9 +5,5 @@ spring:
     name: demo
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      authentication-database: test
-      database: test
-      username: test
-      password: test12!!
+      uri: mongodb://test:test12!!@localhost:27017/test?maxPoolSize=500&waitQueueMultiple=20&waitQueueTimeoutMS=10000
+
